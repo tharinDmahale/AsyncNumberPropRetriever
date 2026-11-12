@@ -1,0 +1,16 @@
+{
+  "name": "TsPromises",
+  "version": "1.0.0",
+  "description": "TypeScript Promises",
+  "license": "UNLICENSED",
+  "author": "tharin",
+  "type": "commonjs",
+  "main": "build/index.js",
+  "scripts": {
+    "build": "npm install && tsc --pretty --listEmittedFiles",
+    "app": "node build/index.js"
+  },
+  "devDependencies": {
+    "@types/node": "^25.9.1"
+  }
+}
